@@ -1,0 +1,41 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.kontainer-utama {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontainer-kalkulator {
+    width: 400px;
+    height: 400px;
+    background-color: #A6D8D4;
+    border-radius: 20px;
+    border: 2px solid #8EAF9D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.layar {
+    margin: 5% 0 0 0;
+    padding: 0px;
+    background-color: #fff;
+    height: 30%;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.tombol {
+    margin: 5% 0 5% 0;
+    padding: 0px;
+    background-color: #fff;
+    height: 55%;
+    width: 90%;
+    border-radius: 20px;
+}

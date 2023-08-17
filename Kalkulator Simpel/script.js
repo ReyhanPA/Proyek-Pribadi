@@ -1,0 +1,1 @@
+const iniJudul = document.getElementById("judul");
