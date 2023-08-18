@@ -1,3 +1,7 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
 html, body {
     margin: 0px;
     padding: 0px;
@@ -29,13 +33,94 @@ html, body {
     height: 30%;
     width: 90%;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layar > input {
+    width: 94%;
+    height: 82%;
+    background-color: #fff;
+    font-size: 60px;
+    border-radius: 20px;
+    border: 0px solid #fff;
+}
+
+.layar > input::placeholder {
+    color: #4F676C;
 }
 
 .tombol {
     margin: 5% 0 5% 0;
     padding: 0px;
-    background-color: #fff;
+    background-color: #07BEB8;
     height: 55%;
     width: 90%;
     border-radius: 20px;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+}
+
+.tombol-b1 {
+    height: 25%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tombol-b2 {
+    height: 25%;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tombol-b3 {
+    height: 25%;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tombol-b4 {
+    height: 25%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.angka, .operator, #reset, #hasil {
+    height: 70%;
+    width: 23%;
+    border-radius: 20px;
+    border: 0px;
+}
+
+.angka:hover, .operator:hover, #reset:hover {
+    background-color: #FB9274;
+    color: #fff;
+}
+
+#hasil {
+    background-color: #FDD9D9;
+    color: #000;
+}
+
+#hasil:hover {
+    background-color: #F76F8E;
+    color: #fff;
 }
